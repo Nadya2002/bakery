@@ -1,0 +1,100 @@
+:root {
+    --border-color: rgb(185, 185, 185);
+    --border-radius: 6px;
+    --black-color: #333;
+}
+
+header img {
+    width: 10%;
+    height: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+header nav {
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 0.25rem;
+    width: 80%;
+    left: 1rem;
+    bottom: 1rem;
+    display: inline-block;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-family: "Arial Narrow", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.middle {
+    margin-top: 1rem;
+    margin-left: 9.5rem;
+    margin-right: 9rem;
+}
+
+.middle .index .text {
+    font-size: large;
+    padding: 1rem;
+}
+
+.middle .index img {
+    display: inline-block;
+    width: 100%;
+}
+
+.middle .promo nav {
+    font-size: large;
+}
+
+.middle .promo img {
+    display: inline-block;
+    width: 100%;
+}
+
+.middle .one-product {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 50%;
+
+}
+
+.middle .catalog {
+    padding-left: 1rem;
+}
+
+.middle .catalog img {
+    width: 30%;
+    padding: 1rem;
+}
+
+.middle .contacts {
+    font-size: x-large;
+    padding-left: 1rem;
+}
+
+.middle .contacts .phone, .time, .address, .email {
+    padding: 1rem;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.5rem;
+    text-align: center;
+}
